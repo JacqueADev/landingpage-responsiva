@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+}
+
+:root{
+    --cor-texto: #3f3d3de1;
+    --cor-botao: #ffffff;
+    --cor-destaque: #e97575;
+}
+
+.header{
+    margin: 50px;
+}
+
+.header a{
+    color: var(--cor-texto);
+    text-decoration: none;
+    font-size: 25px;
+    padding-left: 25px;
+    cursor: pointer;
+}
+
+.header a:hover{
+    color: var(--cor-destaque);
+    transition: 0.5s;
+}
+
+.header button{
+    background-color: var(--cor-destaque);
+    color: var(--cor-botao);
+    border: none;
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 10px 20px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+.header button:hover{
+    background-color: var(--cor-botao);
+    color: var(--cor-destaque);
+    border: 1px solid var(--cor-destaque);
+    transition: 0.4s;
+}
+
+.main{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5%;
+
+}
+
+
+.img{
+    width: 45%;
+    margin-left: 10%;
+   
+}
+
+.content{
+    margin-top: 5%;
+
+}
+
+
+.content h1{
+    font-weight: 900;
+    font-size: 4rem;
+    color: var(--cor-destaque);
+    letter-spacing: 0.4rem;
+    
+}
+
+.content h2{
+
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--cor-destaque);
+    margin-bottom: 2%;
+
+}
+
+.content p{
+    width: 50%;
+    color: var(--cor-texto);
+    margin-bottom: 5%;
+}
+
+.content a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--cor-destaque);
+    cursor: pointer;
+
+}
+
+.content a:hover{
+    font-size: 1.4rem;
+    transition: 0.5s;
+}
+
+
+/*media query*/
